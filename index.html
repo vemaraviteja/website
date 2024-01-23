@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <style>
+        .first h1{
+            position: absolute;
+            left: 570px;
+            top:400px;
+        }
+        .second{
+            display: flex;
+            margin-left:0 
+        }
+        .second div{
+            padding-left: 30px;
+        }
+        .second div h2{
+            position: relative;
+            top: 50px;
+            border: 1px solid black;
+            width: fit-content;
+            background-color: black;
+            color: white;
+        }
+        .three{
+            display: flex;
+            margin-left: 0;
+        }
+        .three div{
+            padding-left: 30px;
+        }
+        .three div h2{
+            opacity: 0.5;
+        }
+        .three div p{
+            border: 1px solid hsl(0, 8%, 68%);
+            padding: 5px;
+            font-size: x-large;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        .three div p:hover{
+            background-color: grey;
+        }
+       .four span{
+         border: 1px solid black;
+         background-color: black;
+         font-size: x-large;
+         padding: 10px;
+         color: white;
+       }
+        ::placeholder{
+            font-size:medium;
+        }
+        header{
+            border:2px solid  black;
+            background-color:  white;
+            padding:20px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            width: 100%;
+            font-size:x-large;
+            
+        }
+        header div a{
+            padding-left: 100px;
+            margin-left: 0;
+        }
+        header div a:hover{
+            background-color: grey;
+        }
+
+       
+       
+    </style>
+</head>     
+<body>
+    <header>
+        <div class="menu">
+            <a href="" style="text-decoration: none;" class="logo">VEMA&nbsp;&nbsp;<span>Architects</a>
+            <a href="#project" style="text-decoration: none;" >Projects</a></li>
+            <a href="#about" style="text-decoration: none;">About</a>
+            <a href="#contact" style="text-decoration: none;">Contact</a>
+        </div>
+    </header>
+    <div class="first">
+        <img src="./Images/img1.jpg" alt="image1" style="margin-top: 100px;">
+        <h1><span style="border: 2px solid silver; color: wheat; background-color: #ca2a2a;padding: 4px;" >VEMA</span>Architects</h1>
+    </div><br><br>
+    <h3 style="margin-left: 20px;font-size: x-large;" id="project">Projects</h3>
+    <div class="second">
+        <div class="image2">
+            <h2>Summer House</h2>
+            <img src="./Images/image2.jpg" alt="image2" width="300px">
+        </div>
+        <div class="image3">
+            <h2>Brick House</h2>
+            <img src="./Images/image3.jpg" alt="image3" width="300px">
+        </div>
+        <div class="image4">
+            <h2>Renovated House</h2>
+            <img src="./Images/image4.jpg" alt="image4" width="300px">
+        </div>
+        <div class="image5">
+            <h2>Barn House</h2>
+            <img src="./Images/image5.jpg" alt="image5" width="300px">
+        </div>
+    </div>
+    <div class="second">
+        <div class="image2">
+            <h2>Summer House</h2>
+            <img src="./Images/image2.jpg" alt="image2" width="300px">
+        </div>
+        <div class="image3">
+            <h2>Brick House</h2>
+            <img src="./Images/image3.jpg" alt="image3" width="300px">
+        </div>
+        <div class="image4">
+            <h2>Renovated House</h2>
+            <img src="./Images/image4.jpg" alt="image4" width="300px">
+        </div>
+        <div class="image5">
+            <h2>Barn House</h2>
+            <img src="./Images/image5.jpg" alt="image5" width="300px">
+        </div>
+    </div><br>
+    <h2 style="margin-left: 20px;" id="about">About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="three">
+        <div class="image6" >
+            <img src="./Images/image6.jpg" alt="" width="300px">
+            <h1>John Doe</h1>
+            <h2>CEO & Founder</h2>
+            <h3>Phasellus eget enim eu lectus faucibus<br>vestibulum. Suspendisse sodales<br>pellentesque elementum.</h3>
+            <p>Contact</p>
+        </div>
+        <div class="image7" >
+            <img src="./Images/image7.jpg" alt="" width="300px">
+            <h1>John Doe</h1>
+            <h2>Architect</h2>
+            <h3>Phasellus eget enim eu lectus faucibus<br>vestibulum. Suspendisse sodales<br>pellentesque elementum.</h3>
+            <p>Contact</p>
+        </div>
+        <div class="image8" >
+            <img src="./Images/image8.jpg" alt="" width="300px">
+            <h1>Mike Ross</h1>
+            <h2>CEO & Founder</h2>
+            <h3>Phasellus eget enim eu lectus faucibus<br>vestibulum. Suspendisse sodales<br>pellentesque elementum.</h3>
+            <p>Contact</p>
+        </div>
+        <div class="image9" >
+            <img src="./Images/image9.jpg" alt="" width="300px">
+            <h1>Dan Star</h1>
+            <h2>CEO & Founder</h2>
+            <h3>Phasellus eget enim eu lectus faucibus<br>vestibulum. Suspendisse sodales<br>pellentesque elementum.</h3>
+            <p>Contact</p>
+        </div>
+    </div><br><br>
+    <h2 style="font-weight: lighter;margin-left: 15px;" id="contact">Contacts</h2>
+    <div class="four">
+        <h2>Lets get in touch and talk about your next project.</h2>
+        <input type="text" placeholder="Name" style="width: 100%; padding: 15px;"><br><br>
+        <input type="email" placeholder="Email" style="width: 100%; padding: 15px;"><br><br>
+        <input type="text" placeholder="Subject" style="width: 100%; padding: 15px;"><br><br>
+        <input type="text" placeholder="Comment" style="width: 100%; padding: 15px;"><br><br><br>
+        <span>SEND MESSAGE</span>
+    </div><br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.2111839189615!2d80.6034100738844!3d16.515432727340738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35efeaa1d155ab%3A0x716f31191199d6f!2sVijayawada%20Durga%20Devi%20temple!5e0!3m2!1sen!2sin!4v1705998073593!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer style="border: 2px solid black;background-color: black;color: white;text-align: center;font-size: x-large;margin-top: 20px;">
+        <h4 >Powered By RAVI TEJA VEMA 	&#169; &nbsp; &#174;</h4>
+    </footer>
+</body>
+</html>
